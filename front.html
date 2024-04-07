@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images with Hyperlinks</title>
+    
+</head>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/front.webp'); /* Replace 'background_image.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+        }
+    .container {
+    background-image: url('background-image-url');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure header spans full width */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color with opacity */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.searchbar {
+    margin-top: 20px; /* Add spacing between header and search bar */
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color with opacity */
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%; /* Ensure search bar spans full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-input {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile">
+                <img src="images/profile.jpg" alt="Profile Image" class="profile-image">
+                <div class="profile-name">MOHANRAJ.K</div>
+            </div>
+            <div class="logo">
+                <img src="logo-image-url" alt="Logo" class="logo-image">
+            </div>
+        </div>
+        <div class="searchbar">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-button">Search</button>
+        </div>
+    </div>
+    
+    <!-- Image 1 with hyperlink -->
+    <a href="ai.html">
+        <img src="images/ai.jpg" alt="Image 1">
+    </a>
+    
+    <!-- Image 2 with hyperlink -->
+    <a href="c.html">
+        <img src="images/c.jpg" alt="Image 2">
+    </a>
+    
+    <!-- Image 3 with hyperlink -->
+    <a href="c++.html">
+        <img src="images/c++.jpg" alt="Image 3">
+    </a>
+    
+    <!-- Image 4 with hyperlink -->
+    <a href="graphicsdesign.html">
+        <img src="images/graphic design.jpg" alt="Image 4">
+    </a>
+    
+    <!-- Image 5 with hyperlink -->
+    <a href="html.html">
+        <img src="images/html.jpg" alt="Image 5">
+    </a>
+    
+    <!-- Image 6 with hyperlink -->
+    <a href="java.html">
+        <img src="images/java.jpg" alt="Image 6">
+    </a>
+    
+    <!-- Image 7 with hyperlink -->
+    <a href="js.html">
+        <img src="images/js.jpg" alt="Image 7">
+    </a>
+    
+    <!-- Image 8 with hyperlink -->
+    <a href="python.html">
+        <img src="images/python.jpg" alt="Image 8">
+    </a>
+    
+    <!-- Image 9 with hyperlink -->
+    <a href="uiux.html">
+        <img src="images/uiux.jpg" alt="Image 9">
+    </a>
+    
+</body>
+</html>

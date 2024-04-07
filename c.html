@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programming Course</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif; /* Apply the font family */
+            margin: 0;
+            padding: 0;
+            background-image: url('back1.jpg'); /* Replace 'back1.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Course section styles */
+        .course-section {
+            background-color: rgba(255, 255, 255, 0.8); /* Use rgba to add transparency to the background color */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 0 0 calc(50% - 20px); /* Set width to 50% of available space minus margins */
+        }
+
+        .course-section h2 {
+            color: #333;
+        }
+
+        .course-section p {
+            color: #555;
+        }
+
+        /* Course topics styles */
+        .course-topics ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .course-topics ul li {
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .course-topics ul li:hover {
+            color: #007bff;
+        }
+
+        .course-topics video {
+            margin-top: 10px;
+            display: block; /* Display video block-level */
+        }
+
+        /* Course schedule styles */
+        .course-schedule {
+            background-color: rgba(255, 255, 255, 0.8); /* Use rgba to add transparency to the background color */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            min-width: 300px;
+            flex: 0 0 calc(50% - 20px); /* Set width to 50% of available space minus margins */
+        }
+
+        .course-schedule h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        /* Additional styles for video alignment */
+        .course-section ul li {
+            display: flex;
+            align-items: center;
+        }
+
+        .course-section ul li video {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>C Programming Course</h1>
+    </header>
+    <main>
+        <section class="course-section">
+            <h2>Course Description</h2>
+            <p>This course provides an introduction to the C programming language, covering basic to advanced concepts.</p>
+        </section>
+        <section class="course-section">
+            <h2>Course Topics</h2>
+            <ul>
+                <li>Introduction to C</li>
+                <li>Data Types and Variables</li>
+                <li>Control Flow and Loops</li>
+                <li>Functions</li>
+                <li>Arrays and Pointers</li>
+                <li>Structures and Unions</li>
+                <li>File Handling</li>
+                <li>Dynamic Memory Allocation</li>
+                <li>Advanced Topics</li>
+            </ul>
+        </section>
+        <section class="course-section">
+            <h2>Course Schedule</h2>
+            <ul>
+                <li>Week 1: Introduction to C <video controls><source src="videos/c/C.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+                <li>Week 2: Data Types and Variables <video controls><source src="videos/c/C.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+                <li>Week 3: Control Flow and Loops <video controls><source src="videos/c/C.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+                <li>Week 4: Functions <video controls><source src="videos/c/C.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+                <li>Week 5: Arrays and Pointers <video controls><source src="videos/c/C.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+            </ul>
+        </section>
+        <section class="course-section">
+            <h2>Course Instructor</h2>
+            <p>Jane Doe</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Learning Portal</p>
+    </footer>
+</body>
+</html>

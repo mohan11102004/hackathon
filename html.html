@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <style>
+        /* styles.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('back1.jpg'); /* Replace 'background_image.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .course-description,
+        .course-topics,
+        .course-instructor {
+            background-color: rgba(255, 255, 255, 0.8); /* Use rgba to add transparency to the background color */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 0 0 calc(50% - 20px); /* Set width to 50% of available space minus margins */
+        }
+
+        .course-description h2,
+        .course-topics h2,
+        .course-instructor h2 {
+            color: #333;
+        }
+
+        .course-topics ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .course-topics ul li {
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .course-topics ul li:hover {
+            color: #007bff;
+        }
+
+        .course-topics video {
+            margin-top: 10px;
+            display: block; /* Display video block-level */
+        }
+
+        .course-schedule {
+            background-color: rgba(255, 255, 255, 0.8); /* Use rgba to add transparency to the background color */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            min-width: 300px;
+            flex: 0 0 calc(50% - 20px); /* Set width to 50% of available space minus margins */
+        }
+
+        .course-schedule h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Introduction to HTML Course</h1>
+    </header>
+    <main>
+        <section class="course-description">
+            <h2>Course Description</h2>
+            <p>This course is designed to provide a comprehensive introduction to HTML (Hypertext Markup Language). HTML is the standard markup language for creating web pages and web applications. In this course, you will learn the fundamentals of HTML, including its syntax, structure, and commonly used tags.</p>
+        </section>
+        <section class="course-topics">
+            <h2>Course Topics and Lectures</h2>
+            <ul>
+                <li>Introduction to HTML</li>
+                <li>HTML Document Structure</li>
+                <li>HTML Tags and Attributes</li>
+                <li>Working with Text and Links</li>
+                <li>Working with Images and Multimedia</li>
+                <li>Forms and Input Elements</li>
+                <li>HTML5 Semantic Elements</li>
+                <li>Creating Tables and Lists</li>
+                <li>Introduction to CSS</li>
+                <li>Basic HTML and CSS Integration</li>
+            </ul>
+        </section>
+        <section class="course-schedule">
+            <h2>Course Schedule</h2>
+            <table>
+                <tr>
+                    <th>Week</th>
+                    <th>Topics Covered</th>
+                    <th>Video</th>
+                </tr>
+                <tr>
+                    <td>Week 1</td>
+                    <td>Introduction to HTML, HTML Document Structure</td>
+                    <td><a href="videos/html_intro.mp4">Watch Video</a></td>
+                </tr>
+                <tr>
+                    <td>Week 2</td>
+                    <td>HTML Tags and Attributes, Working with Text and Links</td>
+                    <td><video width="320" height="240" controls><source src="videos/html_intro.mp4" type="video/mp4">Your browser does not support the video tag.</video></td>
+                </tr>
+                <tr>
+                    <td>Week 3</td>
+                    <td>Working with Images and Multimedia, Forms and Input Elements</td>
+                    <td><video width="320" height="240" controls><source src="videos/html_intro.mp4" type="video/mp4">Your browser does not support the video tag.</video></td>
+                </tr>
+                <tr>
+                    <td>Week 4</td>
+                    <td>HTML5 Semantic Elements, Creating Tables and Lists</td>
+                    <td><video width="320" height="240" controls><source src="videos/html_intro.mp4" type="video/mp4">Your browser does not support the video tag.</video></td>
+                </tr>
+               
